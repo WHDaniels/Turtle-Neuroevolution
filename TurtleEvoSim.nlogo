@@ -12,7 +12,7 @@ patches-own [ patch-birth-tick ]
 
 to setup-python-environment
 
-  py:setup "C:\\Users\\mercm\\Desktop\\472 Final Project\\venv\\Scripts\\python"
+  py:setup "venv\\Scripts\\python"
   py:run "import network as cog"
   py:run "import numpy as np"
   py:run "agents = {}"
